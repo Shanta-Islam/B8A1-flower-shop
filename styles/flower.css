@@ -4,7 +4,9 @@ body {
     margin: 0;
     font-family: 'Lato', sans-serif;
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
+
 .btn-primary {
     background-color: #E55473;
     border-radius: 8px;
@@ -14,19 +16,24 @@ body {
     font-weight: 700;
     padding: 15px 35px;
 }
-.section-title{
+
+.section-title {
     color: #272727;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
 }
-.section-desc{
+
+.section-desc {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    width: 70%;
+    margin-left: 15%;
 }
+
 /**** header banner css ****/
 .banner {
     background: rgba(229, 84, 115, 0.10);
@@ -36,24 +43,135 @@ body {
     align-items: center;
     justify-content: space-between;
 }
-.banner .banner-title{
+
+.banner .banner-title {
     font-size: 60px;
     font-weight: 800;
     color: #272727;
 }
-.banner .banner-desc{
+
+.banner .banner-desc {
     margin: 32px 0px;
     font-size: 18px;
     font-weight: 400;
     color: rgba(39, 39, 39, 0.60);
 }
+
 .banner .banner-img {
     width: 435px;
     margin-top: 60px;
 }
+
 /**** main section css ****/
 /* featured section css */
-.featured{
+.featured {
     padding: 0px 170px;
     margin: 178px 0;
+}
+
+.featured-img-content {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.featured-img-content img {
+    width: 200px;
+    height: 280px;
+    padding: 110px 70px 0px 70px;
+    margin: 0px 15px;
+    border-radius: 300px 300px 0px 0px;
+}
+
+.featured-img-content .featured-img1 {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.featured-img-content .featured-img2 {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.featured-img-content .featured-img3 {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.featured-img-content h4 {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-top: 32px;
+}
+
+/* delivery section css */
+.delivery-section {
+    padding: 10px 170px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 140px;
+}
+
+.delivery-section-content {
+    margin: 20px;
+}
+
+.delivery-section img {
+    display: flex;
+    margin: auto;
+}
+
+.delivery-section h4 {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+/* offer section css */
+.offer-section {
+    padding: 70px 170px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.offer-section-content{
+    text-align: center;
+}
+.offer-section-content h3 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.offer-section-content p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+}
+.offer-section img {
+    width: 300px;
+}
+/* social section */
+.social-section {
+    padding: 70px 170px;
+}
+.social-section .img-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+}
+.social-section .img-section img{
+    width: 270px;
+    margin: 0px 24px;
 }
