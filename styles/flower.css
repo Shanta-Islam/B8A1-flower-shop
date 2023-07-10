@@ -6,6 +6,7 @@ body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
 }
+
 .btn-primary {
     background-color: #E55473;
     border-radius: 8px;
@@ -142,14 +143,17 @@ body {
     align-items: center;
     justify-content: space-between;
 }
-.offer-section-content{
+
+.offer-section-content {
     text-align: center;
 }
+
 .offer-section-content h3 {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
 }
+
 .offer-section-content p {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
@@ -157,20 +161,37 @@ body {
     line-height: 30px;
     margin-top: 24px;
 }
+
 .offer-section img {
     width: 300px;
 }
+
 /* social section */
 .social-section {
     padding: 70px 170px;
 }
-.social-section .img-section{
+
+.social-section .img-section {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 48px;
 }
-.social-section .img-section img{
+
+.social-section .img-section img {
     width: 270px;
     margin: 0px 24px;
+}
+
+/* deals section */
+.deal-section {
+    padding: 70px 170px;
+    background-image: url('../images/Rectangle 9.png');
+    margin: 300px 140px;
+}
+
+.deal-section .input {
+    padding: 20px 160px;
+    border-radius: 8px;
+    background: #FFF;
 }
