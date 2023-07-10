@@ -161,17 +161,3 @@ body {
 .offer-section img {
     width: 300px;
 }
-/* social section */
-.social-section {
-    padding: 70px 170px;
-}
-.social-section .img-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 48px;
-}
-.social-section .img-section img{
-    width: 270px;
-    margin: 0px 24px;
-}
